@@ -1,3 +1,9 @@
+mod variables;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Rust Tutorial Materials:");
+
+    variables::variables();
+
+    println!("Success");
 }
