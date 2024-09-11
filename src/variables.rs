@@ -30,4 +30,11 @@ pub fn variables() {
 
     println!("Y = {}", y);
     println!("Y = {}", y);
+
+    // destructuring
+    let (mut x, y) = (2, 3);
+    x += 1;
+
+    assert_eq!(x, 3);
+    assert_eq!(y, 3);
 }
