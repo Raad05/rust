@@ -37,4 +37,12 @@ pub fn variables() {
 
     assert_eq!(x, 3);
     assert_eq!(y, 3);
+
+    let (x, y);
+
+    // more on destructuring
+    (x, ..) = (1, 2);
+    [.., y] = [2, 3];
+
+    assert_eq!([x, y], [1, 3]);
 }
