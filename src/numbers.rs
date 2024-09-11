@@ -7,4 +7,9 @@ pub fn numbers() {
 
     // floating points
     let a = 3.5;
+
+    // range
+    for i in 1..5 {
+        println!("{}", i);
+    }
 }
